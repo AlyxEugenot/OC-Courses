@@ -49,7 +49,7 @@
           <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Dew71FLPvcZ710SalqBt-32" value="Conversations récentes" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="220" y="150" width="160" height="56" as="geometry">
+          <mxGeometry x="220" y="112" width="160" height="56" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -91,7 +91,7 @@
           <mxGeometry y="130" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tKI6db9lsDf0LtCUit57-0" value="Espace des messages épinglés" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="766" y="227" width="220" height="52" as="geometry">
+          <mxGeometry x="450" y="60" width="220" height="52" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -226,7 +226,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tKI6db9lsDf0LtCUit57-58" value="Conversation " style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="220" y="250" width="160" height="56" as="geometry">
+          <mxGeometry x="220" y="225" width="160" height="56" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -235,13 +235,38 @@
         </mxCell>
         <mxCell id="tKI6db9lsDf0LtCUit57-62" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=elbowEdgeStyle;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Dew71FLPvcZ710SalqBt-32" target="tKI6db9lsDf0LtCUit57-58">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="720" y="500" as="sourcePoint" />
-            <mxPoint x="880" y="500" as="targetPoint" />
+            <mxPoint x="720" y="462" as="sourcePoint" />
+            <mxPoint x="880" y="462" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tKI6db9lsDf0LtCUit57-64" value="*" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;fontSize=16;" connectable="0" vertex="1" parent="tKI6db9lsDf0LtCUit57-62">
           <mxGeometry x="1" relative="1" as="geometry">
             <mxPoint x="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKI6db9lsDf0LtCUit57-66" value="Espace de notifications" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="527" width="160" height="116" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKI6db9lsDf0LtCUit57-67" value="Message(s)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="tKI6db9lsDf0LtCUit57-66">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKI6db9lsDf0LtCUit57-68" value="Événement(s)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="tKI6db9lsDf0LtCUit57-66">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKI6db9lsDf0LtCUit57-69" value="Nouvel épinglage" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="tKI6db9lsDf0LtCUit57-66">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKI6db9lsDf0LtCUit57-70" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=elbowEdgeStyle;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tKI6db9lsDf0LtCUit57-5" target="tKI6db9lsDf0LtCUit57-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="190" as="sourcePoint" />
+            <mxPoint x="570" y="122" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKI6db9lsDf0LtCUit57-71" value="*" style="edgeLabel;resizable=0;html=1;;align=left;verticalAlign=bottom;fontSize=16;" connectable="0" vertex="1" parent="tKI6db9lsDf0LtCUit57-70">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-10" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
