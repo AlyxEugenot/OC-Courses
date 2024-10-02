@@ -245,7 +245,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tKI6db9lsDf0LtCUit57-66" value="Espace de notifications" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="550" y="527" width="160" height="116" as="geometry">
+          <mxGeometry x="550" y="520" width="160" height="146" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -257,6 +257,9 @@
         </mxCell>
         <mxCell id="tKI6db9lsDf0LtCUit57-69" value="Nouvel épinglage" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="tKI6db9lsDf0LtCUit57-66">
           <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKI6db9lsDf0LtCUit57-72" value="Vu ? (bool)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="tKI6db9lsDf0LtCUit57-66">
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tKI6db9lsDf0LtCUit57-70" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=elbowEdgeStyle;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tKI6db9lsDf0LtCUit57-5" target="tKI6db9lsDf0LtCUit57-58">
           <mxGeometry relative="1" as="geometry">
